@@ -1,0 +1,50 @@
+{
+  "name": "react-chatgpt-nit",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://chatbot.nitstudio.vn",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "nodemon": "^3.0.3",
+    "react": "^18.2.0",
+    "react-content-loader": "^6.2.1",
+    "react-dom": "^18.2.0",
+    "react-native": "^0.73.4",
+    "react-native-svg": "^14.1.0",
+    "react-scripts": "5.0.1",
+    "react-textarea-autosize": "^8.5.3",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start:backend": "node server.js",
+    "start:frontend": "react-scripts start"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
