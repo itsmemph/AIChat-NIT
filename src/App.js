@@ -27,7 +27,7 @@ const getMessages = async () => {
     }
   }
   try {
-    const response  = await fetch('http://localhost:8000/completions', options)
+    const response  = await fetch('https://chatai-i5h8.onrender.com/completions', options)
     const data = await response.json()
     console.log(data)
     if (data && data.choices && data.choices.length > 0) {
